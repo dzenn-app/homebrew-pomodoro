@@ -1,13 +1,13 @@
 cask "dzenn-pomodoro" do
-  version "0.1.1"
+  version "0.1.2"
 
   on_arm do
-    sha256 "50295e7c16716f8785ba8ff7cba2dfbdae621e44d2e951a0083cd354a4a4b5ea"
+    sha256 "fafdc64cbc74547b80e0e03435d481f17e1ed1650157912797bdd66c56bdf12f"
     url "https://github.com/dzenn-app/pomodoro/releases/download/v#{version}/dzenn-#{version}-mac-arm64.dmg"
   end
 
   on_intel do
-    sha256 "3f6179962fccf258c8394b1e68700cbb9132e921a8da3a28d21407fcd83d1cde"
+    sha256 "3d28ae4a5a3533e4e9639104f09e528f22e8ece3659ccaff8fe9ffac754f13ba"
     url "https://github.com/dzenn-app/pomodoro/releases/download/v#{version}/dzenn-#{version}-mac-intel.dmg"
   end
   name "Dzenn"
